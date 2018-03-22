@@ -2,3 +2,6 @@
 dist/
 node_modules/
 thumbs.db
+yarn.lock
+yarn-error.log
+
