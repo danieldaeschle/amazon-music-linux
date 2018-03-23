@@ -10,20 +10,21 @@
     "dist": "yarn compile && electron-builder --linux",
     "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
   },
+  "dependencies": {
+    "dbus": "^1.0.3",
+    "source-map-support": "^0.5.4"
+  },
   "devDependencies": {
     "electron": "1.8.4",
     "electron-builder": "^20.5.1",
     "electron-webpack": "^1.13.0",
-    "webpack": "^3.11.0",
-    "dbus": "^1.0.3",
-    "source-map-support": "^0.5.4"
+    "webpack": "^3.11.0"
   },
   "resolutions": {
     "webpack-sources": "1.0.1"
   },
   "build": {
     "appId": "com.github.danieldaeschle.amazon-music-linux",
-    "maintainer": "Daniel Däschle",
     "linux": {
       "target": [
         {
